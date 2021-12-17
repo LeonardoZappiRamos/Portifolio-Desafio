@@ -7,7 +7,12 @@
 body{
     width: 100vw;
     height: 100vw;
+
+    font-family: 'Merriweather Sans', sans-serif;
 }
+
+h3 {font-size: 23px; font-style: bold;}
+h4 {font-size: 13px; font-style: normal;}
 
 .cBakGround {background: #22212C;}
 
@@ -26,6 +31,7 @@ aside{
     /* background: green; */
     padding: 10px;
     display: flex;
+    flex-direction: column;
 }
 
 section{
@@ -33,6 +39,7 @@ section{
     padding: 10px;
     display: flex;
     /* background: blue; */
+    flex-direction: column;
 }
 
 .box {
@@ -40,6 +47,7 @@ section{
     padding: 20px;
     color: #837E9F;
     height: fit-content;
+    margin-bottom: 20px;
 }
 
 .profile{
@@ -48,6 +56,13 @@ section{
     flex-direction: column;
     align-items: center;
     height: fit-content;
+}
+
+.project{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .logo {
