@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vw;
+}
+
+.cBakGround {background: #22212C;}
+
+.cBox {background: #302F3D;}
+
+.content{
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    padding: 40px;
+}
+
+aside{
+    width: 420px;
+    /* background: green; */
+    padding: 10px;
+    display: flex;
+}
+
+section{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    /* background: blue; */
+}
+
+.box {
+    border-radius: 30px;
+    padding: 20px;
+    color: #837E9F;
+    height: fit-content;
+}
+
+.profile{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #00FF00;
+    margin-bottom: 20px;
+    background-color: #6550AD;
+}
