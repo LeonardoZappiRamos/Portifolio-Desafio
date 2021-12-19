@@ -1,75 +1,231 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-body{
-    width: 100vw;
-    height: 100vw;
-
-    font-family: 'Merriweather Sans', sans-serif;
+body {
+  width: 100vw;
+  height: 100vw;
+  background: #22212c;
+  font-family: "Merriweather Sans", sans-serif;
 }
 
-h3 {font-size: 23px; font-style: bold;}
-h4 {font-size: 13px; font-style: normal;}
-
-.cBakGround {background: #22212C;}
-
-.cBox {background: #302F3D;}
-
-.content{
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: stretch;
-    padding: 40px;
+h3 {
+  font-size: 23px;
+  font-style: bold;
+}
+h4 {
+  font-size: 13px;
+  font-style: normal;
 }
 
-aside{
-    width: 420px;
-    /* background: green; */
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+a {
+  text-decoration: none;
+  color: #837e9f;
 }
 
-section{
-    width: 100%;
-    padding: 10px;
-    display: flex;
-    /* background: blue; */
-    flex-direction: column;
+.cBox {
+  background: #302f3d;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  padding: 40px;
+}
+
+aside {
+  width: 420px;
+  /* background: green; */
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+section {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  /* background: blue; */
+  flex-direction: column;
 }
 
 .box {
-    border-radius: 30px;
-    padding: 20px;
-    color: #837E9F;
-    height: fit-content;
-    margin-bottom: 20px;
+  border-radius: 30px;
+  padding: 20px;
+  color: #837e9f;
+  height: fit-content;
+  margin-bottom: 20px;
 }
 
-.profile{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    height: fit-content;
+.profile {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: fit-content;
 }
 
-.project{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.project {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    border: 1px solid #00FF00;
-    margin-bottom: 20px;
-    background-color: #6550AD;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #00ff00;
+  margin-bottom: 20px;
+  background-color: #6550ad;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.card {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+}
+
+.card .box {
+  width: 25vw;
+}
+
+.card_title {
+  display: flex;
+  align-items: center;
+}
+
+.card_body {
+  margin-top: 10px;
+}
+
+.card_foot {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+.card_title h3 {
+  margin-left: 8px;
+}
+
+.card_title i {
+  font-size: 2em;
+}
+
+.card_foot p {
+  margin: 0 5px;
+}
+
+.links {
+  display: flex;
+  /* background-color: #0000ff; */
+  padding: 2px;
+  align-items: center;
+}
+
+.links i {
+  margin-right: 8px;
+  display: flex;
+  justify-content: center;
+}
+
+.tcard {
+  color: #000000;
+  display: flex;
+  flex-flow: row wrap;
+  font-weight: bold;
+  font-style: normal;
+  font-size: 10px;
+}
+.tcontainer {
+  background: #cb92b1;
+  margin: 8px;
+  padding: 5px 20px;
+  border-radius: 30px;
+}
+
+ul {
+  margin-left: 20px;
+  padding: 8px;
+}
+
+li h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+li p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.post_logo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border: 1px solid #00ff00;
+}
+
+.post_logo img {
+  border-radius: 50%;
+  width: 100%;
+  height: auto;
+}
+
+.post_content {
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.post {
+  width: 100%;
+}
+
+.post_title h4 {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.post_date p {
+  font-size: 12px;
+}
+
+.post_description {
+  font-size: 16px;
+}
+
+.post_tag {
+  display: flex;
+  padding: 8px 0;
+}
+
+.post_tag p {
+  margin-right: 12px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: normal;
 }
